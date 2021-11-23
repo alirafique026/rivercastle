@@ -91,7 +91,7 @@ p.large { font-size:18px; padding:15px 0 15px; margin-bottom:0; display:inline-b
 p.large.no-padding { padding:0; }
 .with-bg p { color:#fff !important; }
 .with-bg p.small { opacity:0.7; }
-.info-box-content p.large, .header-wrapper p.large { max-width:474px; margin-left:auto; margin-right:auto; }
+.info-box-content p.large, .header-wrapper p.large { max-width:800px; margin-left:auto; margin-right:auto; text-align: justify; }
 .extra-padding-top, .bg-white p, .auto-height p { padding-top:10px; }
 p.below-button { position:relative; top:-10px; font-style:italic; font-size:13px; }
 .agency p.below-button { top:-5px; }
@@ -202,7 +202,7 @@ header { position:relative; z-index: 1099; width:100%; background:#fff; padding:
 
 .bg-image-1 { background:url(../images/full03.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .bg-image-2 { background:url(../images/full04.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-.bg-image-3 { background:url(../images/full01.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bg-image-3 { background:url(../images/Banner.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .bg-image-4 { background:url(../images/full08.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .nautical-1 { background:url(../images/nautical01.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:20px; left:50%; height:500px; width:1000px; margin-left:-500px; opacity:0.1 }
@@ -459,3 +459,16 @@ ul .small, ol .small { font-size:11px !important; text-transform:uppercase; font
 #map-section { position:relative; }
 /* End Googlemaps
 --------------------------------------------------------------------------------------------------------*/
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
