@@ -472,3 +472,15 @@ ul .small, ol .small { font-size:11px !important; text-transform:uppercase; font
     justify-content: center;
     align-items: center;
 }
+
+.partner-item img {
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    padding: 0px 10px 0px 10px;
+  }
+  .partner-item:hover img {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
