@@ -319,7 +319,7 @@ footer#home {
 	margin: auto;
 	font-size: 15px;
 	margin-bottom: 30px;
-	color: #777;
+	color: #ffffff;
 	background-color: transparent;
 	border-top: none;
 	padding: 0;
@@ -352,7 +352,7 @@ footer ul li:last-child:after {
     content: "";
 }
 footer ul li a{
-	color: #777;
+	color: #ffffff;
 }
 
 /*============================================================================================*/
@@ -360,14 +360,14 @@ footer ul li a{
 /*============================================================================================*/
 /*-------- 2.1 Home/front page--------*/
 #form_container {
-	background-color: #fff;
+	background-color: #ffffffb8;
 	width: 1000px;
 	min-height: 460px;
 	margin: 120px auto 30px;
 }
 
 #left_form {
-	background-color: #F60;
+	background-color: rgba(14, 47, 64, 0.91);
 	min-height: 460px;
 	color: #fff;
 	text-align: center;
@@ -731,12 +731,12 @@ span.error:after {
 }
 
 .form-control::-moz-placeholder {
-	color: #999;
+	color: rgb(0, 0, 0);
 	opacity: 1;
 }
 
 .form-control::-webkit-input-placeholder {
-	color: #999;
+	color: rgb(0, 0, 0);
 }
 
 input.form-control,
@@ -782,7 +782,7 @@ input.form-control#check_out {
 .radio_input label {
 	padding-left: 0;
 	margin-right: 15px;
-	color: #999;
+	color: #2a2929;
 }
 
 /*-------- 3.1 Other pages --------*/
@@ -1575,4 +1575,14 @@ input.qtyminus {
 .icon--order-success svg circle {
 	-webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
 	animation: checkmark-circle 0.6s ease-in-out backwards
+}
+
+.goldlogo
+{
+	width: 145px;
+	height:auto;
+}
+.backgrnd {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
 }
