@@ -38,7 +38,7 @@
 <body onLoad="setTimeout('delayedRedirect()', 8000)" style="background-color:#fff;">
 <?php
 						$mail = $_POST['email'];
-						$to = "test@domain.com";/* YOUR EMAIL HERE */
+						$to = "aleee.001@gmail.com";/* YOUR EMAIL HERE */
 						$subject = "Registration from MAVIA";
 						$headers = "From: Registration from MAVIA <noreply@yourdomain.com>";
 						$message = "DETAILS\n";
