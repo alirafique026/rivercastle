@@ -204,10 +204,8 @@ header { position:relative; z-index: 1099; width:100%; background:#fff; padding:
 .bg-image-2 { background:url(../images/full04.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .bg-image-3 { background:url(../images/Banner.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .bg-image-4 { background:url(../images/full08.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.nautical-2 { background:url(../images/nautical02.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-140px; left:50%; height:500px; width:1000px; margin-left:-340px; opacity:0.1 }
 .nautical-4 { background:url(../images/nautical04.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-90px; left:50%; height:500px; width:1000px; margin-left:-500px; opacity:0.1 }
 .nautical-5 { background:url(../images/nautical05.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-40px; left:50%; height:500px; width:1000px; margin-left:-485px; opacity:0.1 }
-.nautical-6 { background:url(../images/nautical06.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-50px; left:50%; height:500px; width:1000px; margin-left:-455px; opacity:0.1 }
 .nautical-7 { background:url(../images/nautical04.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-140px; left:50%; height:500px; width:1000px; margin-left:-500px; opacity:0.1 }
 .nautical-8 { background:url(../images/nautical03.png) no-repeat center top; background-size:1000px 500px; position:absolute; top:-15px; left:50%; height:500px; width:1000px; margin-left:-660px; opacity:0.1 }
 
@@ -481,3 +479,19 @@ ul .small, ol .small { font-size:11px !important; text-transform:uppercase; font
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
   }
+.vid1
+{
+    max-width: 1200px;
+    max-height: 300px;
+}
+.res
+{
+    width: 100%;
+    height: auto;
+}
+
+.frame{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
