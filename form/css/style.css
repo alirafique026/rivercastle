@@ -1630,7 +1630,7 @@ input.qtyminus {
 	.backgrnd {
 		display        : flex;
 		flex-direction: column;
-		padding-top: 11.56rem;
+		padding-top: 17.56rem;
 		justify-content: center;
 		align-items    : center;
 	}
