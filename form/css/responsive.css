@@ -22,14 +22,15 @@
 		padding: 0 30px;
 	}
 	#left_form {
-		text-align:left;
+		text-align: center;
 		padding:30px;
 		min-height:inherit;
     }
 	#left_form img{
-		float: left;
 		margin-right: 30px;
-    }
+		width: 116px;
+		height: auto;
+	}
 	a#more_info{
 		left:auto;
 		right:30px;
@@ -74,7 +75,7 @@
 	#left_form img{
 		float: none;
 		margin-right: 0;
-		width: 100px;
+		width: 105px;
 		height: 100%;
     }
 	/* Margin tools */
