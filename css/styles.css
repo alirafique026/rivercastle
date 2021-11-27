@@ -325,11 +325,11 @@ i.fa { margin-right:3px; color:#2b2b2b }
 .round-button i.fa { color:#2b2b2b; font-size:22px; padding:0; margin:0; padding-top:19px; padding-left:5px; }
 
 .icons.food-dome-serving { background:url(../images/icons/earth.png) center no-repeat; background-size:36px 36px; }
-.icons.beach { background:url(../images/icons/air.png) center no-repeat; background-size:73px 42px; }
+.icons.beach { background:url(../images/icons/air.png) center no-repeat; background-size:42px 42px; }
 .icons.dumbell { background:url(../images/icons/water.png) center no-repeat; background-size:36px 36px; }
 .icons.safe-2 { background:url(../images/icons/safe-2.png) center no-repeat; background-size:36px 36px; }
 .icons.hat-chef { background:url(../images/icons/sky.png) center no-repeat; background-size:52px 74px; }
-.icons.snorkel-mask { background:url(../images/icons/fire.png) center no-repeat; background-size:36px 36px; }
+.icons.snorkel-mask { background:url(../images/icons/fire.png) center no-repeat; background-size:30px 34px; }
 
 .icons.map-pin-1 { background:url(../images/icons/map-pin-1.png) center no-repeat; background-size:36px 36px; }
 .icons.network { background:url(../images/icons/network.png) center no-repeat; background-size:36px 36px; }
@@ -378,8 +378,10 @@ footer .social-list li { padding:0 0 0 10px; }
 footer .social-list li a i { color:#8d8d8d; font-size:16px; top:2px; position:relative }
 .foot {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px
 }
 /* End Footer
 --------------------------------------------------------------------------------------------------------*/
@@ -503,3 +505,10 @@ ul .small, ol .small { font-size:11px !important; text-transform:uppercase; font
     right: 20px;
     display: none;
   }
+
+.rav {
+    margin-top: 10px;
+    width: 220px;
+    height: 20px;
+}
+
