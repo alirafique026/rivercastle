@@ -2128,6 +2128,10 @@ ol .small {
     .foot {
         font-size: 10px;
     }
+
+    .vid1 {
+        display: none;
+    }
 }
 
 @media (max-width: 348px) {
