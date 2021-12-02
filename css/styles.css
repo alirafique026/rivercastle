@@ -2119,6 +2119,12 @@ ol .small {
     height    : 20px;
 }
 
+.sanskrit {
+    width        : 500px;
+    margin-top   : 40px;
+    margin-bottom: 40px;
+}
+
 @media (max-width: 425px) {
     .rav {
         width : 100px;
@@ -2131,6 +2137,10 @@ ol .small {
 
     .vid1 {
         display: none;
+    }
+
+    .sanskrit {
+        margin-bottom: 0px;
     }
 }
 
